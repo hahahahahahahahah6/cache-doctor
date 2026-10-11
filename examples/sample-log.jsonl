@@ -1,0 +1,16 @@
+{"ts": "2026-10-11T01:00:01Z", "prompt": "What is the capital of France?", "cache_key": "k001", "hit": false, "miss_reason": "no_key", "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:00:04Z", "prompt": "what is the capital of france", "cache_key": "k002", "hit": false, "miss_reason": "no_key", "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:00:09Z", "prompt": "What is the capital of  France?", "cache_key": "k003", "hit": false, "miss_reason": "no_key", "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:00:15Z", "prompt": "What is the capital of France?", "cache_key": "k001", "hit": true, "similarity": 1.0, "threshold": 0.9, "ttl_seconds": 3600, "cache_age_seconds": 30}
+{"ts": "2026-10-11T01:00:22Z", "prompt": "Capital of France?", "cache_key": "k001", "hit": true, "similarity": 0.91, "threshold": 0.9, "ttl_seconds": 3600, "cache_age_seconds": 60}
+{"ts": "2026-10-11T01:00:30Z", "prompt": "Capital city of France", "cache_key": "k001", "hit": true, "similarity": 0.92, "threshold": 0.9, "ttl_seconds": 3600, "cache_age_seconds": 90}
+{"ts": "2026-10-11T01:00:41Z", "prompt": "Tell me the capital of France", "cache_key": "k004", "hit": true, "similarity": 0.905, "threshold": 0.9, "ttl_seconds": 3600, "cache_age_seconds": 120, "flag_wrong": true}
+{"ts": "2026-10-11T01:00:52Z", "prompt": "How to reverse a list in Python?", "cache_key": "k010", "hit": false, "miss_reason": "no_key", "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:01:03Z", "prompt": "reverse list python", "cache_key": "k010", "hit": true, "similarity": 0.97, "threshold": 0.9, "ttl_seconds": 3600, "cache_age_seconds": 45}
+{"ts": "2026-10-11T01:01:15Z", "prompt": "Explain quantum entanglement", "cache_key": "k020", "hit": false, "miss_reason": "expired", "similarity": 0.96, "threshold": 0.9, "ttl_seconds": 60}
+{"ts": "2026-10-11T01:01:28Z", "prompt": "quantum entanglement explained", "cache_key": "k020", "hit": false, "miss_reason": "expired", "similarity": 0.95, "threshold": 0.9, "ttl_seconds": 60}
+{"ts": "2026-10-11T01:01:40Z", "prompt": "weather in paris", "cache_key": "k030", "hit": true, "similarity": 0.99, "threshold": 0.9, "ttl_seconds": 300, "cache_age_seconds": 290}
+{"ts": "2026-10-11T01:01:55Z", "prompt": "Write a haiku about the ocean", "cache_key": "k040", "hit": false, "miss_reason": "low_similarity", "similarity": 0.87, "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:02:10Z", "prompt": "compose a haiku on the sea", "cache_key": "k040", "hit": false, "miss_reason": "low_similarity", "similarity": 0.88, "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:02:25Z", "prompt": "haiku about ocean", "cache_key": "k040", "hit": false, "miss_reason": "low_similarity", "similarity": 0.885, "threshold": 0.9, "ttl_seconds": 3600}
+{"ts": "2026-10-11T01:02:40Z", "prompt": "Summarize this: the treaty was signed in 1919", "cache_key": "k050", "hit": false, "miss_reason": "no_key", "threshold": 0.9, "ttl_seconds": 3600}
